@@ -7,7 +7,8 @@ class A{
     void sayHello(){
         cout<<"say hello to everyone"<<endl;
     }
-    void sayHello(string person){
+    void sayHello(string person
+    ){
         cout<<"say hello to everyone pragat "<< person <<endl;
     }
 };

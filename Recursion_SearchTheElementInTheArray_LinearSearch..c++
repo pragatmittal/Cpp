@@ -8,7 +8,7 @@ void print(int arr[], int n) {
         cout << arr[i] << " ";
     }
     cout << endl;
-}
+}   
 
 int linearSearch(int arr[], int size, int key) {
     print(arr, size);

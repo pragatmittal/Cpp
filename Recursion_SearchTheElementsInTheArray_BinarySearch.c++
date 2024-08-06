@@ -1,3 +1,6 @@
+;
+
+
 #include<iostream>
 #include<algorithm>
 
@@ -10,7 +13,7 @@ void print(int arr[], int s, int e) {
     cout << endl;
 }
 
-bool BinarySearch(int *arr, int s, int e, int k) {
+bool BinarySearch(int *arr, int s, int   e, int k) {
     print(arr, s, e);
 
     // base case
