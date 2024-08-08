@@ -25,9 +25,9 @@ public:
     int maxProfit(int k, vector<int>& prices) {
         int n = prices.size();
         if (n == 0) return 0;
-
+ 
         vector<vector<vector<int>>> dp(n, vector<vector<int>>(2, vector<int>(k + 1, -1)));
         return f(0, 0, k, prices, dp);
 
     }
-};
+}
