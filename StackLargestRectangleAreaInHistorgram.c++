@@ -52,10 +52,3 @@ int largestRectangle(vector<int> &heights) {
     }
     return area;
 }
-
-int main() {
-    vector<int> heights = {2, 1, 5, 6, 2, 3};
-    int result = largestRectangle(heights);
-    cout << "Largest Rectangle Area: " << result << endl;
-    return 0;
-}
